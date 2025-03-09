@@ -1,0 +1,39 @@
+site_name: Redflash User Guides
+site_url: https://docs.redflash.se
+extra_css:
+  - stylesheets/extra.css
+theme:  
+  name: material
+  palette: 
+    scheme: default
+    primary: custom
+    accent: custom
+  language: en
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Française
+      link: /fr/
+      lang: fr
+
+plugins:
+  - search
+
+      
+
+
+copyright: Copyright &copy; 2020-2024 Red Flash Mobile AB
+
+  
+  
