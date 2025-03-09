@@ -1,0 +1,901 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.redflash.se/en/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="The_Console/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>TAPx - Tax Agent App User Guide - Redflash User Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#main-functionality" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Redflash User Guides" class="md-header__button md-logo" aria-label="Redflash User Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Redflash User Guides
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TAPx - Tax Agent App User Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/fr/" hreflang="fr" class="md-select__link">
+              Française
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Redflash User Guides" class="md-nav__button md-logo" aria-label="Redflash User Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Redflash User Guides
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    En
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            En
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    TAPx - Tax Agent App User Guide
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    TAPx - Tax Agent App User Guide
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main Functionality:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Concepts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#account-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Account Creation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#home-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Home Screen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-and-modify-of-taxpayer-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Register and Modify of Taxpayer Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scanning-id-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scanning ID-Cards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issue-and-sell-licences-and-permits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue and Sell Licences and Permits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transaction-history-and-licensepermit-validity-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transaction History and License/Permit Validity Checks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#google-maps-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google Maps Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#my-registrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Registrations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      Related Products
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="The_Console/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin Console Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="billy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Billy - BILL PAYMENT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Fr
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Fr
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TAPx - Guide de l'utilisateur de l'application Tax Agent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fr/billy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Billy - PAIEMENT DE FACTURES
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main Functionality:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Concepts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#account-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Account Creation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#home-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Home Screen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-and-modify-of-taxpayer-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Register and Modify of Taxpayer Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scanning-id-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scanning ID-Cards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issue-and-sell-licences-and-permits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue and Sell Licences and Permits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transaction-history-and-licensepermit-validity-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transaction History and License/Permit Validity Checks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#google-maps-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google Maps Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#my-registrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Registrations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      Related Products
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>TAPx - Tax Agent App User Guide</h1>
+
+<mark class="critic block">
+<p><strong>TAPx</strong> - an app for agents collecting local taxes and fees.</p>
+</mark>
+<p><strong>TAPx</strong> is a companion app to the SMARTr Cloud Service, a secure, mobile-first platform designed to simplify micro-taxation in Sub-Saharan Africa's dynamic informal sector. Integrated with leading mobile money services, SMARTr Tax efficiently handles high-volume transactions, recurring billing, and access control for time-limited virtual licences and permits. SMARTr Tax and <strong>TAPx</strong> empowers governments to streamline tax collection while reducing administrative costs.</p>
+<h2 id="main-functionality">Main Functionality:</h2>
+<ul>
+<li>Easy registration and modification of taxpayer information.</li>
+<li>Geolocation tagging to simplify locating taxpayers and businesses.</li>
+<li>Customer search via phone number, QR code, or map-based geographic location.</li>
+<li>Immediate permit/licence status checks.</li>
+<li>On-the-spot permit/licence issuance.</li>
+<li>Support recurring billing and deferred payments.</li>
+<li>Payment integration with supported mobile payment systems.</li>
+</ul>
+<h2 id="basic-concepts">Basic Concepts</h2>
+<p><strong>District:</strong> A geographically defined area for tax collection (region, county, municipality). Districts are established at the project start. (Example on Google Maps: <a href="https://mymaps.google.com/">https://mymaps.google.com</a>)</p>
+<p><strong>Articles:</strong> Licences, permits, tariffs, or other non-tangible items with defined validity periods (e.g., yearly, monthly, daily). Articles with prices are district-specific and are determined at project initiation.</p>
+<p><strong>Business Types:</strong> Categories for classifying businesses (e.g., café, gas station, bank, barber, pharmacy, restaurant, fruit/vegetable stand).</p>
+<p><strong>Orders/Transactions</strong> Every transaction in the system has an order number to be referred to. The order is linked to an article that has been sold/issued. </p>
+<h2 id="getting-started">Getting Started</h2>
+<p><strong>Download:</strong> Find the app on the Google Play Store (<a href="https://play.google.com/store/apps/details?id=com.redflash.tapx">https://play.google.com/store/apps/details?id=com.redflash.tapx</a>)</p>
+<p><strong>Login:</strong> The login screen displays your position and the current app version.</p>
+<p><img alt="&quot;Login page&quot;" src="images/loginpage.webp" /></p>
+<p><strong>Potential issue when starting:</strong> TAPx relies on a functional phone GPS. If the GPS malfunctions, the app will alert you and shut down. To resolve this, open Google Maps, then relaunch TAPx.</p>
+<h2 id="account-creation">Account Creation</h2>
+<p>Self-registration is possible using an invite code (obtain it from your manager). The invite code links your user data to the appropriate organisation.</p>
+<p>To create an account, follow the steps below:</p>
+<p><img alt="&quot;Registration Process&quot;" src="images/usr_registrations.webp" /></p>
+<ol>
+<li>Click the black "Register" button on the login page.</li>
+<li>Enter your invite code.</li>
+<li>Provide personal data (name, username, mobile number, email). Usernames must be unique.</li>
+<li>Upload a clear headshot photo.</li>
+<li>Create a password (minimum five characters, including one special character and one digit). If any data is missing, you will see a notification about this on the password page.</li>
+<li>Click the "Register" button (it will turn green when all data is valid).</li>
+<li>Await manager approval before logging in.</li>
+</ol>
+<p>Access pages to modify your information through the drawer menu (hamburger menu) in the upper left corner</p>
+<h2 id="home-screen">Home Screen</h2>
+<p><img align="right" alt="&quot;Home Screen&quot;" src="images/homescreen.webp" /></p>
+<p><strong>Main Options:</strong></p>
+<p><strong>Search for a Taxpayer:</strong> There are multiple ways to search for a taxpayer: you can search by phone number (tap the search icon), by ID card (tap the document scan icon), or by QR code (tap the QR code icon). The available search options are configured during the initial setup and may vary depending on customer-specific requirements.</p>
+<p><strong>Add a New Taxpayer:</strong> Tap the "Add" button.</p>
+<p><strong>Cart:</strong> Tap for issuing permits.</p>
+<p><strong>Transactions:</strong> See and manage transactions of the customer.</p>
+<p><strong>Payments:</strong> Tap the "Payments" button to view processed payments.</p>
+<p><strong>Map:</strong> Tap the "Map" button to see registered customer locations within your district.</p>
+<h2 id="register-and-modify-of-taxpayer-information">Register and Modify of Taxpayer Information</h2>
+<p><img alt="&quot;Photo registration&quot;" src="images/photo%20screens.webp" /></p>
+<p><strong>Data Entry (Screen 1):</strong> Enter the taxpayer's name, family name, and gender. Take a clear headshot photo with good lighting. After accepting the photo, you can crop it accordingly.</p>
+<p><img alt="&quot;Personal information&quot;" src="images/registrations.webp" /></p>
+<p><strong>Info (Screen 2):</strong> Provide personal information (birthday, mobile number, email).</p>
+<p><strong>Business Info (Screen 3):</strong> Enter the Taxpayer Identification Number (TPIN), and business name, and select the business type. Preview and save the data when complete.</p>
+<h2 id="scanning-id-cards">Scanning ID-Cards</h2>
+<p>TAPx supports the scanning of ID cards and two formats are supported: MRZ (machine readable zone) and PDF417. The functionality of ID-card scanning is optional and must be activated by Redflash.</p>
+<p><img alt="&quot;Scanning id card2&quot;" src="images/scanning%20from%20idcards.webp" /></p>
+<h2 id="issue-and-sell-licences-and-permits">Issue and Sell Licences and Permits</h2>
+<p><strong>1. Identify Taxpayer:</strong> Use the Search function to find the taxpayer. You can either scan their QR code or search by phone number. If the search is successful, you will land on the customer page where all relevant customer data are presented. If the taxpayer has a valid permit, it is shown on this page.</p>
+<p><img alt="&quot;Issuing permits&quot;" src="images/issuing_permits.webp" /></p>
+<p><strong>2.</strong> Goto the <strong>Home Page</strong> and tap <strong>Cart</strong>.</p>
+<p><strong>3. Articles Page</strong>: Select the relevant district from the dropdown menu to see available articles. Choose an article and confirm.</p>
+<p><strong>4. Payment page:</strong> verify the selected article, price and the mobile number for payment. If ok, tap "PAY". If credit is given, tap "LATER" for deferred payment.</p>
+<h2 id="transaction-history-and-licensepermit-validity-checks">Transaction History and License/Permit Validity Checks</h2>
+<p>The transaction button becomes active when the taxpayer has a registered active transaction. It may also display a badge indicating the number of active transactions, with yellow for deferred payments and red for unpaid orders. By tapping the transaction button, users can view and manage these transactions.</p>
+<p><img alt="&quot;Transactions&quot;" src="images/transactions.webp" /></p>
+<p>Transactions highlighted in green represent active permits/licences. Yellow indicates active transactions with deferred payments, while red marks unpaid transactions.</p>
+<p>A warning message will appear if there are any unpaid orders. These can be settled directly from the order details page.</p>
+<p>By long-pressing a transaction in the list, you can view detailed transaction information. If the order remains unpaid, easily initiate the payment process by tapping the 'Pay' button.</p>
+<h2 id="google-maps-integration">Google Maps Integration</h2>
+<p><img alt="&quot;Google maps&quot;" src="images/maps1.png" /></p>
+<p>Google Maps is well integrated into the app. If you tap the Maps button on the home screen, the app will show your location on the map. If you zoom out, you will see your district boundaries as shown in the left screenshot. If you have a taxpayer selected, the map will show the location of the taxpayer on the map. If you tap on the marker of the taxpayer, a small info window will pop up and show you the basic info.</p>
+<p>Tapping on the red head shows all merchants with invalid licences/permits.</p>
+<p>Tapping on the green head shows all merchants with valid licences/permits.</p>
+<p>Tapping on the yellow head shows you all merchants with outstanding payments. </p>
+<p>Below are two examples of info windows for merchants with valid permits and outstanding payments.</p>
+<p><img alt="&quot;Google maps&quot;" src="images/maps2.webp" /></p>
+<p>When tapping on a marker in the map you see detailed information about the merchant.</p>
+<p>Tapping on the info window of the marker takes you back to the home page with the merchant selected. You can now view more detailed information about the merchant.</p>
+<p>Tapping on the yellow head shows you all merchants with deferred payments.</p>
+<p>If you have a merchant selected on the home page, you can locate the merchant as usual by tapping on the map button.</p>
+<h2 id="user-management">User Management</h2>
+<p>Before a user can access the system, he needs to be approved by either an administrator or a manager of the organisation. Isaac and Gibson have admin rights for their countries. As an admin, you can approve or deactivate a user in the country. A manager only has access to users in his organisation. </p>
+<p><img alt="&quot;Manage users&quot;" src="images/manage_users.webp" /></p>
+<p>Access to the user management page can be found in the side menu under the option Users. Only users with the appropriate permissions will be able to see this option. </p>
+<p>On the User Management page, you can activate users who have registered (green icon), and you can also deactivate users (black icon). There is also a deletion option (red icon) that you should use carefully.</p>
+<h2 id="my-registrations">My Registrations</h2>
+<p>On the “My registrations” page you can see statistics of how many registrations you have done per day, this week, last week, this month or the previous month.</p>
+<p><img alt="&quot;My registrations&quot;" src="images/my_registrations.webp" /></p>
+<p>You can now see all the merchants that you have registered and search in the list.  Tap on a customer that has been registered and see all his info.</p>
+<h2 id="related-products">Related Products</h2>
+<p><strong>Billy:</strong> Bill management and payment</p>
+<p><strong>POSx:</strong> Point of sales payments</p>
+<p><strong>PARKx:</strong> Parking attendant app</p>
+<p><strong>SMARTR CLOUD:</strong> Cloud services supporting the apps</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2020-2024 Red Flash Mobile AB
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+    
+  </body>
+</html>
