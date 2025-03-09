@@ -36,6 +36,8 @@ Use the **Date Range Picker** in the upper-right corner to select a date range f
 
 ![Payments Chart](images/payments-chart.png)
 
+testar
+
 ---
 
 ## Payments Table
