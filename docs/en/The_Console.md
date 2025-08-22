@@ -36,8 +36,6 @@ Use the **Date Range Picker** in the upper-right corner to select a date range f
 
 ![Payments Chart](images/payments-chart.png)
 
-testar
-
 ---
 
 ## Payments Table
@@ -77,8 +75,6 @@ Some fields are editable within this view.
 - **Right Chart**: Displays the cumulative number of registered customers over time.
 
 ![Registrations Charts](images/registrations_charts.webp)
-
-<br><br><br><br><br><br><br><br><br><br>
 
 ---
 

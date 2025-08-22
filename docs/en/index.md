@@ -1,7 +1,5 @@
 ---
-
 title: "TAPx - Tax Agent App User Guide"
-
 ---
 
 {==
@@ -14,13 +12,13 @@ title: "TAPx - Tax Agent App User Guide"
 
 ## Main Functionality:
 
-*   Easy registration and modification of taxpayer information.
-*   Geolocation tagging to simplify locating taxpayers and businesses.
-*   Customer search via phone number, QR code, or map-based geographic location.
-*   Immediate permit/licence status checks.
-*   On-the-spot permit/licence issuance.
-*   Support recurring billing and deferred payments.
-*   Payment integration with supported mobile payment systems.
+- Easy registration and modification of taxpayer information.
+- Geolocation tagging to simplify locating taxpayers and businesses.
+- Customer search via phone number, QR code, or map-based geographic location.
+- Immediate permit/licence status checks.
+- On-the-spot permit/licence issuance.
+- Support recurring billing and deferred payments.
+- Payment integration with supported mobile payment systems.
 
 ## Basic Concepts
 
@@ -30,7 +28,7 @@ title: "TAPx - Tax Agent App User Guide"
 
 **Business Types:** Categories for classifying businesses (e.g., café, gas station, bank, barber, pharmacy, restaurant, fruit/vegetable stand).
 
-**Orders/Transactions** Every transaction in the system has an order number to be referred to. The order is linked to an article that has been sold/issued. 
+**Orders/Transactions** Every transaction in the system has an order number to be referred to. The order is linked to an article that has been sold/issued.
 
 ## Getting Started
 
@@ -90,6 +88,10 @@ Access pages to modify your information through the drawer menu (hamburger menu)
 
 **Business Info (Screen 3):** Enter the Taxpayer Identification Number (TPIN), and business name, and select the business type. Preview and save the data when complete.
 
+## Link a QR-code to the taxpayer
+
+When registering a taxpayer you might want to link an existing QR-code to the tax payer
+
 ## Scanning ID-Cards
 
 TAPx supports the scanning of ID cards and two formats are supported: MRZ (machine readable zone) and PDF417. The functionality of ID-card scanning is optional and must be activated by Redflash.
@@ -130,7 +132,7 @@ Tapping on the red head shows all merchants with invalid licences/permits.
 
 Tapping on the green head shows all merchants with valid licences/permits.
 
-Tapping on the yellow head shows you all merchants with outstanding payments. 
+Tapping on the yellow head shows you all merchants with outstanding payments.
 
 Below are two examples of info windows for merchants with valid permits and outstanding payments.
 
@@ -146,11 +148,11 @@ If you have a merchant selected on the home page, you can locate the merchant as
 
 ## User Management
 
-Before a user can access the system, he needs to be approved by either an administrator or a manager of the organisation. Isaac and Gibson have admin rights for their countries. As an admin, you can approve or deactivate a user in the country. A manager only has access to users in his organisation. 
+Before a user can access the system, he needs to be approved by either an administrator or a manager of the organisation. Isaac and Gibson have admin rights for their countries. As an admin, you can approve or deactivate a user in the country. A manager only has access to users in his organisation.
 
 !["Manage users"](images/manage_users.webp)
 
-Access to the user management page can be found in the side menu under the option Users. Only users with the appropriate permissions will be able to see this option. 
+Access to the user management page can be found in the side menu under the option Users. Only users with the appropriate permissions will be able to see this option.
 
 On the User Management page, you can activate users who have registered (green icon), and you can also deactivate users (black icon). There is also a deletion option (red icon) that you should use carefully.
 
