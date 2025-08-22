@@ -90,7 +90,7 @@ Access pages to modify your information through the drawer menu (hamburger menu)
 
 ## Link a QR-code to the taxpayer
 
-When registering a taxpayer you might want to link an existing QR-code to the tax payer
+When registering a taxpayer you might want to link an existing QR-code to the tax payer. Just tap the Qr-code field. The camera starts and you can scan the new QR-code. The code is read and will be saved if you save the data of the tax payer. If you want to change the QR-code, just tap the QR code field and scan again.
 
 ## Scanning ID-Cards
 
