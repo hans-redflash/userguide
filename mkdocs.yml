@@ -2,9 +2,9 @@ site_name: Redflash User Guides
 site_url: https://docs.redflash.se
 extra_css:
   - stylesheets/extra.css
-theme:  
+theme:
   name: material
-  palette: 
+  palette:
     scheme: default
     primary: custom
     accent: custom
@@ -21,7 +21,7 @@ markdown_extensions:
 extra:
   alternate:
     - name: English
-      link: /en/ 
+      link: /en/
       lang: en
     - name: Française
       link: /fr/
@@ -30,10 +30,4 @@ extra:
 plugins:
   - search
 
-      
-
-
-copyright: Copyright &copy; 2020-2024 Red Flash Mobile AB
-
-  
-  
+copyright: Copyright &copy; 2020-2026 Red Flash Mobile AB
